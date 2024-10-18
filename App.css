@@ -1,0 +1,30 @@
+.img-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  align-items: stretch; /* Ensure items stretch to the full height of each grid cell */
+  text-align: center;
+  border: 5px solid salmon; /* Outer container border */
+  /* gap: 10px; */
+  background-color: gray;
+
+}
+.img-container > div {
+  
+  padding: 10px;
+  text-align: center;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white ;
+  /* background-color: gray; */
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  height: 100%; /* Ensures all items stretch to fill their grid cells */
+}
+
+.numberdiv{
+  display: flex;
+  padding: 10px;
+
+}
+.selectedpage{
+  background-color: antiquewhite;
+}
